@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Perfil - Dragon Ball Legends</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+            background-image: url('background.jpg'); /* Substitua pela sua imagem de fundo */
+            background-size: cover;
+            background-position: center;
+        }
+        .profile-container {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(255, 204, 0, 0.5);
+            width: 80%;
+            max-width: 600px;
+            text-align: center;
+        }
+        h1 {
+            color: #ffcc00;
+            text-shadow: 0 0 5px #fff, 0 0 10px #ffcc00;
+            margin-bottom: 20px;
+        }
+        .profile-image {
+            width: 150px; /* Tamanho da foto de perfil */
+            border-radius: 50%;
+            border: 2px solid #ffcc00;
+            margin-bottom: 20px;
+        }
+        .info-section {
+            margin: 20px 0;
+        }
+        .info-item {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        .achievements {
+            background: rgba(255, 204, 0, 0.1);
+            border: 1px solid #ffcc00;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: left;
+        }
+        .achievement-item {
+            margin: 5px 0;
+        }
+        input[type="button"] {
+            background: #ffcc00;
+            border: none;
+            padding: 10px 20px;
+            color: #000;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        input[type="button"]:hover {
+            background: #ffd700;
+        }
+    </style>
+</head>
+<body>
+
+<div class="profile-container">
+    <h1>Página de Perfil</h1>
+    <img src="frieza.png" alt="Foto de Perfil" class="profile-image"> <!-- Substitua pela sua imagem -->
+    <div class="info-section">
+        <div class="info-item">Nome: <strong>EM BREVE</strong></div>
+        <div class="info-item">Raça: <strong>EM BREVE</strong></div>
+    </div>
+    <div class="achievements">
+        <h2>Conquistas</h2>
+        <div class="achievement-item">BLOQUEADO</div>
+        <div class="achievement-item">BLOQUEADO</div>
+        <div class="achievement-item">BLOQUEADO</div>
+    </div>
+    <input type="button" value="Voltar para o Menu" onclick="window.location.href='dragon ball legends.html'"> <!-- Redireciona para a página menu.html -->
+</div>
+
+</body>
+</html>

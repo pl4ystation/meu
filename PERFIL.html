@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha Sua Raça - Dragon Ball Legends</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-image: url('background.jpg'); /* Substitua pela sua imagem de fundo */
+            background-size: cover;
+            background-position: center;
+        }
+        h1 {
+            color: #ffcc00;
+            text-shadow: 0 0 5px #fff, 0 0 10px #ffcc00;
+            margin-bottom: 20px;
+        }
+        .gallery-section {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .gallery-image {
+            width: 200px; /* Largura das imagens */
+            margin: 0 10px; /* Espaço entre as imagens */
+            border: 2px solid #ffcc00; /* Borda das imagens */
+            border-radius: 5px;
+            transition: transform 0.3s; /* Transição para o efeito de crescimento */
+        }
+        .gallery-image:hover {
+            transform: scale(1.1); /* Efeito de crescimento */
+        }
+        input[type="submit"] {
+            background: #ffcc00;
+            border: none;
+            padding: 10px 20px;
+            color: #000;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        input[type="submit"]:hover {
+            background: #ffd700;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Escolha Sua Raça</h1>
+<div class="gallery-section">
+    <img src="goku.png" alt="Raça 1" class="gallery-image"> <!-- Substitua pela sua imagem -->
+    <img src="frieza.png" alt="Raça 2" class="gallery-image"> <!-- Substitua pela sua imagem -->
+    <img src="picollo.png" alt="Raça 3" class="gallery-image"> <!-- Substitua pela sua imagem -->
+</div>
+<input type="button" value="Continuar" onclick="window.location.href='perfil oficial.html'">
+
+</body>
+</html>
